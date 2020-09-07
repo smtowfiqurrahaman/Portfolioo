@@ -1,0 +1,204 @@
+/*body{
+    background:   linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/BG.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+} */
+
+/* 
+.All{
+  width: 100%;
+  height: 100vh -63px;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+} */
+
+
+
+body{
+   /* background:   linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("img/BG.jpg");   */
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+.home{
+    color: #fff;
+     background: url("img/Home.jpeg");
+     background-size: cover;
+     background-position: center;
+     height: 260%;
+     width: auto;
+    padding-top: 18%;
+    padding-bottom: 24%;
+    
+}
+.homel{
+    font-size: 300%;
+    font-weight: bold;
+}
+.home2{
+    font-size: 417%;
+    font-weight: lighter;
+}
+                   /* About section*/
+.about{
+    height: 100%;
+    width: auto;
+    clear: both;
+}
+.para{
+    margin-top: 5%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.propic img{
+    margin-top:5%; 
+    height: 400px; 
+    width: auto;
+    position: relative;
+   
+
+}
+                  /* About section End*/
+.navitem{
+    padding-left: 42%;
+}
+.navitem ul li{
+     margin-right: 5px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0 15px;
+  
+}
+.btn-outline-primary{
+    text-align: center;
+    border-radius: 20px;
+    /* padding: 0 25px; */
+    
+  
+}
+.ho{
+   /* border-radius: 20px;
+    padding: 0 10px;*/
+      background-color: #e60707:
+}
+
+                  /*skill and info*/
+.s_and-i{
+    height:150%;
+    width: auto;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("img/infoandskill.jpg");
+    background-size: cover;
+	 background-position: center;
+}
+h1{
+    color: #fff;
+}
+label{
+    color:#fff;
+}
+.infoo{
+    font-size:115%;
+  color: #fff;
+  padding-top: 5%;
+  padding-left: 15%;
+ }
+.infoo ul{
+   list-style-type: none;
+}
+.infoo ul li strong{
+   padding: 25px;
+  line-height: 60px;
+}
+                           /* Skil and info End*/
+                  /* Cards */
+#cardse{
+    height:100%;
+    width: auto;
+}
+.card{
+    margin-top: 25%;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+                          /*Cards end*/
+/* work */
+
+.portofolio{
+    /* padding: 130px 0px 60px;
+    height: 200px; */
+    /* background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(../image/portfolio/porfoliobg.gif); */
+    background-size: 100% 100%;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    width: auto;
+    height: 200%;
+    padding: 0px 0px 100px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slider  */
+
+                          .carousel-inner img {
+                            width: 100%;
+                            height: 60%;
+                          }
+
+                             /* Slider  */
+
+        /* Form */
+.from{
+    height: 90vh;
+    width: auto;
+    /* background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/contactbg.png"); */ 
+    background-size: cover;
+    background-position: center;
+    position: static;
+}
+.fom{
+  padding:0 10%;
+}
+ /* Form end */
+
+
+ .jugas_footer_copyright {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    height:20%;
+    line-height:52px;
+    }
